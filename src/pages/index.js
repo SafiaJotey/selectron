@@ -1,7 +1,15 @@
-import { Inter } from 'next/font/google';
+import RootLayout from '@/components/Layout/RootLayout';
+import Banner from '@/components/ui/Banner';
 
-const inter = Inter({ subsets: ['latin'] });
+const Home = () => {
+  return (
+    <div>
+      <Banner></Banner>
+    </div>
+  );
+};
 
-export default function Home() {
-  return <div className="text-7xl text-red-600">Home</div>;
-}
+export default Home;
+Home.getLayout = function getLayout(page) {
+  return <RootLayout>{page}</RootLayout>;
+};
