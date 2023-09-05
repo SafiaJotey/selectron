@@ -7,7 +7,6 @@ import { RxDotFilled } from 'react-icons/rx';
 import Button from './Button';
 
 const Banner = () => {
-
   const slides = [
     {
       url: (
@@ -190,8 +189,8 @@ const Banner = () => {
           <div
             key={slideIndex}
             onClick={() => goToSlide(slideIndex)}
-            className={`absolute transition-opacity duration-10000 ${
-              currentIndex === slideIndex ? 'opacity-100' : 'opacity-0'
+            className={`text-xl transition-opacity duration-500  md:text-2xl cursor-pointer ${
+              currentIndex === slideIndex ? 'text-primary' : 'text-gray-500'
             }`}
           >
             <RxDotFilled />

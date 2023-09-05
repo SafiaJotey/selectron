@@ -10,8 +10,12 @@ module.exports = {
       primary: 'red',
       secondary: 'black',
       subsidery: '#44464b',
-      base: '#b3b3b3',
+      review: '#fed025',
+      baseColor: '#b3b3b3',
       white: '#fff',
+      green: 'green',
+      red: 'red',
+      basebackground: '#f7f7f7',
       overlay: 'rgb(255,1,0,.2)',
     },
     extend: {

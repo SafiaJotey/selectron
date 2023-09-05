@@ -1,0 +1,675 @@
+[
+  {
+    "Image": "https://i.ibb.co/PWf0LY3/cpu3.jpg",
+    "Product Name": "Intel Core i9-9900K",
+    "Category": "Processor",
+    "Status": "In Stock",
+    "Price": 399.99,
+    "Description": "High-performance processor for gaming and content creation.",
+    "Key Features": {
+      "Brand": "Intel",
+      "Model": "Core i9-9900K",
+      "Specification": "8 cores, 16 threads",
+      "Socket": "LGA 1151",
+      "Clock Speed": "3.6 GHz base, up to 5.0 GHz boost",
+      "Cache": "16MB SmartCache",
+      "TDP": "95W"
+    },
+    "Reviews": [
+      {
+        "reviewer": "EmilySmith",
+        "rating": 4,
+        "comment": "Solid performance for the price."
+      },
+      {
+        "reviewer": "AlexJohnson",
+        "rating": 3.5,
+        "comment": "Average quality, but gets the job done."
+      }
+    ]
+  },
+  {
+    "Image": "https://i.ibb.co/TPqL4pn/cpu2.jpg",
+    "Product Name": "AMD Ryzen 7 5800X",
+    "Category": "Processor",
+    "Status": "In Stock",
+    "Price": 449.99,
+    "Description": "Powerful processor designed for gaming and productivity.",
+    "Key Features": {
+      "Brand": "AMD",
+      "Model": "Ryzen 7 5800X",
+      "Specification": "8 cores, 16 threads",
+      "Socket": "AM4",
+      "Clock Speed": "3.8 GHz base, up to 4.7 GHz boost",
+      "Cache": "32MB L3 Cache",
+      "TDP": "105W"
+    },
+    "Reviews": [
+      {
+        "reviewer": "SophiaDavis",
+        "rating": 5,
+        "comment": "Outstanding performance boost!"
+      },
+      {
+        "reviewer": "ChrisMiller",
+        "rating": 4.8,
+        "comment": "Reliable and efficient. No complaints!"
+      }
+    ]
+  },
+  {
+    "Image": "https://i.ibb.co/3FRRKy2/cpu.jpg",
+    "Product Name": "AMD Ryzen 9 5900X",
+    "Category": "Processor",
+    "Status": "Out of stock",
+    "Price": 599.99,
+    "Description": "High-end processor with excellent multi-core performance.",
+    "Key Features": {
+      "Brand": "AMD",
+      "Model": "Ryzen 9 5900X",
+      "Specification": "12 cores, 24 threads",
+      "Socket": "AM4",
+      "Clock Speed": "3.7 GHz base, up to 4.8 GHz boost",
+      "Cache": "64MB L3 Cache",
+      "TDP": "105W"
+    },
+    "Reviews": [
+      {
+        "reviewer": "AvaMartinez",
+        "rating": 2,
+        "comment": "Disappointed with the compatibility issues."
+      },
+      {
+        "reviewer": "NoahThompson",
+        "rating": 4.5,
+        "comment": "Great value for the features provided."
+      }
+    ]
+  },
+  {
+    "Image": "https://i.ibb.co/SXfYXC9/motherboard3.jpg",
+    "Product Name": "ASUS ROG Strix Z590-E Gaming",
+    "Category": "Motherboard",
+    "Status": "In Stock",
+    "Price": 299.99,
+    "Description": "High-end gaming motherboard with extensive connectivity.",
+    "Key Features": {
+      "Brand": "ASUS",
+      "Model": "ROG Strix Z590-E Gaming",
+      "Form Factor": "ATX",
+      "Socket": "LGA 1200",
+      "Chipset": "Intel Z590",
+      "Memory Slots": "4x DDR4",
+      "Max Memory": "128GB",
+      "PCIe Slots": "3 x16, 3 x1",
+      "M.2 Slots": "3",
+      "USB Ports": "10 x USB 3.2 Gen 2, 4 x USB 2.0",
+      "Ethernet": "2.5 Gigabit"
+    },
+    "Reviews": [
+      {
+        "reviewer": "EllaBrown",
+        "rating": 3,
+        "comment": "Decent performance, but a bit overpriced."
+      },
+      {
+        "reviewer": "JamesWilson",
+        "rating": 5,
+        "comment": "Exceeded my expectations. Flawless performance."
+      }
+    ]
+  },
+  {
+    "Image": "https://i.ibb.co/MRrDf7K/motherboard.jpg",
+    "Product Name": "GIGABYTE B550 AORUS Elite",
+    "Category": "Motherboard",
+    "Status": "In Stock",
+    "Price": 159.99,
+    "Description": "Mid-range motherboard for AMD Ryzen processors.",
+    "Key Features": {
+      "Brand": "GIGABYTE",
+      "Model": "B550 AORUS Elite",
+      "Form Factor": "ATX",
+      "Socket": "AM4",
+      "Chipset": "AMD B550",
+      "Memory Slots": "4x DDR4",
+      "Max Memory": "128GB",
+      "PCIe Slots": "2 x16, 2 x1",
+      "M.2 Slots": "2",
+      "USB Ports": "2 x USB 3.2 Gen 2, 6 x USB 2.0",
+      "Ethernet": "1 Gigabit"
+    },
+    "Reviews": [
+      {
+        "reviewer": "EllaBrown",
+        "rating": 3,
+        "comment": "Decent performance, but a bit overpriced."
+      },
+      {
+        "reviewer": "JamesWilson",
+        "rating": 5,
+        "comment": "Exceeded my expectations. Flawless performance."
+      }
+    ]
+  },
+  {
+    "Image": "https://i.ibb.co/1RhQKRS/motherboard-2.jpg",
+    "Product Name": "MSI MPG B450 Gaming Plus",
+    "Category": "Motherboard",
+    "Status": "Out of stock",
+    "Price": 119.99,
+    "Description": "Budget-friendly motherboard for AMD Ryzen CPUs.",
+    "Key Features": {
+      "Brand": "MSI",
+      "Model": "MPG B450 Gaming Plus",
+      "Form Factor": "ATX",
+      "Socket": "AM4",
+      "Chipset": "AMD B450",
+      "Memory Slots": "4x DDR4",
+      "Max Memory": "64GB",
+      "PCIe Slots": "2 x16, 3 x1",
+      "M.2 Slots": "1",
+      "USB Ports": "6 x USB 3.1 Gen 1, 6 x USB 2.0",
+      "Ethernet": "1 Gigabit"
+    },
+    "Reviews": [
+      {
+        "reviewer": "GraceJohnson",
+        "rating": 4.2,
+        "comment": "Good overall, but had some minor issues during installation."
+      },
+      {
+        "reviewer": "LiamMartin",
+        "rating": 4.7,
+        "comment": "Impressive build quality. Definitely recommended."
+      }
+    ]
+  },
+  {
+    "Image": "https://i.ibb.co/Nxd3vCY/ram.jpg",
+    "Product Name": "Corsair Vengeance RGB Pro 16GB (2 x 8GB)",
+    "Category": "RAM",
+    "Status": "In Stock",
+    "Price": 129.99,
+    "Description": "High-performance DDR4 RAM with RGB lighting.",
+    "Key Features": {
+      "Brand": "Corsair",
+      "Model": "Vengeance RGB Pro",
+      "Capacity": "16GB (2 x 8GB)",
+      "Type": "DDR4",
+      "Speed": "3200MHz",
+      "CAS Latency": "16",
+      "Voltage": "1.35V",
+      "RGB Lighting": "Yes"
+    },
+    "Reviews": [
+      {
+        "reviewer": "EmilySmith",
+        "rating": 4,
+        "comment": "Solid performance for the price."
+      },
+      {
+        "reviewer": "AlexJohnson",
+        "rating": 3.5,
+        "comment": "Average quality, but gets the job done."
+      }
+    ]
+  },
+  {
+    "Image": "https://i.ibb.co/VNmvp63/ram2.jpg",
+    "Product Name": "G.SKILL Ripjaws V 32GB (2 x 16GB)",
+    "Category": "RAM",
+    "Status": "In Stock",
+    "Price": 179.99,
+    "Description": "High-capacity DDR4 RAM for multitasking and gaming.",
+    "Key Features": {
+      "Brand": "G.SKILL",
+      "Model": "Ripjaws V",
+      "Capacity": "32GB (2 x 16GB)",
+      "Type": "DDR4",
+      "Speed": "3600MHz",
+      "CAS Latency": "18",
+      "Voltage": "1.35V",
+      "RGB Lighting": "No"
+    },
+    "Reviews": [
+      {
+        "reviewer": "SophiaDavis",
+        "rating": 5,
+        "comment": "Outstanding performance boost!"
+      },
+      {
+        "reviewer": "ChrisMiller",
+        "rating": 4.8,
+        "comment": "Reliable and efficient. No complaints!"
+      }
+    ]
+  },
+  {
+    "Image": "https://i.ibb.co/GFyPJFk/ram3.jpg",
+    "Product Name": "Crucial Ballistix 16GB (2 x 8GB)",
+    "Category": "RAM",
+    "Status": "Out of stock",
+    "Price": 99.99,
+    "Description": "Affordable DDR4 RAM for entry-level gaming systems.",
+    "Key Features": {
+      "Brand": "Crucial",
+      "Model": "Ballistix",
+      "Capacity": "16GB (2 x 8GB)",
+      "Type": "DDR4",
+      "Speed": "3000MHz",
+      "CAS Latency": "15",
+      "Voltage": "1.35V",
+      "RGB Lighting": "No"
+    },
+
+    "Reviews": [
+      {
+        "reviewer": "AvaMartinez",
+        "rating": 2,
+        "comment": "Disappointed with the compatibility issues."
+      },
+      {
+        "reviewer": "NoahThompson",
+        "rating": 4.5,
+        "comment": "Great value for the features provided."
+      }
+    ]
+  },
+  {
+    "Image": "https://i.ibb.co/KWBFcrf/power3.jpg",
+    "Product Name": "EVGA Supernova 750 G3",
+    "Category": "Power Supply Unit",
+    "Status": "In Stock",
+    "Price": 129.99,
+    "Description": "Compact and efficient 750W power supply.",
+    "Key Features": {
+      "Brand": "EVGA",
+      "Model": "Supernova 750 G3",
+      "Wattage": "750W",
+      "Efficiency": "80 PLUS Gold",
+      "Modular": "Fully Modular",
+      "Fan Size": "130mm",
+      "Connectors": "1 x 24-pin ATX, 2 x 4+4-pin CPU, 4 x PCIe, 8 x SATA, 4 x Molex"
+    },
+    "Individual Rating": 4.8,
+    "Average Rating": 4.7,
+    "Reviews": [
+      {
+        "reviewer": "AvaMartinez",
+        "rating": 2,
+        "comment": "Disappointed with the compatibility issues."
+      },
+      {
+        "reviewer": "NoahThompson",
+        "rating": 4.5,
+        "comment": "Great value for the features provided."
+      }
+    ]
+  },
+  {
+    "Image": "https://i.ibb.co/p1QTDFJ/power.jpg",
+    "Product Name": "Corsair RM850x",
+    "Category": "Power Supply Unit",
+    "Status": "In Stock",
+    "Price": 159.99,
+    "Description": "High-performance 850W modular power supply.",
+    "Key Features": {
+      "Brand": "Corsair",
+      "Model": "RM850x",
+      "Wattage": "850W",
+      "Efficiency": "80 PLUS Gold",
+      "Modular": "Fully Modular",
+      "Fan Size": "135mm",
+      "Connectors": "1 x 24-pin ATX, 2 x 4+4-pin CPU, 6 x PCIe, 8 x SATA, 8 x Molex"
+    },
+
+    "Reviews": [
+      {
+        "reviewer": "EllaBrown",
+        "rating": 3,
+        "comment": "Decent performance, but a bit overpriced."
+      },
+      {
+        "reviewer": "JamesWilson",
+        "rating": 5,
+        "comment": "Exceeded my expectations. Flawless performance."
+      }
+    ]
+  },
+  {
+    "Image": "https://i.ibb.co/XWtRyWb/power2.jpg",
+    "Product Name": "Seasonic S12III 500",
+    "Category": "Power Supply Unit",
+    "Status": "Out of stock",
+    "Price": 59.99,
+    "Description": "Budget-friendly 500W power supply.",
+    "Key Features": {
+      "Brand": "Seasonic",
+      "Model": "S12III 500",
+      "Wattage": "500W",
+      "Efficiency": "80 PLUS Bronze",
+      "Modular": "Non-Modular",
+      "Fan Size": "120mm",
+      "Connectors": "1 x 24-pin ATX, 1 x 4+4-pin CPU, 2 x PCIe, 6 x SATA, 3 x Molex"
+    },
+
+    "Reviews": [
+      {
+        "reviewer": "GraceJohnson",
+        "rating": 4.2,
+        "comment": "Good overall, but had some minor issues during installation."
+      },
+      {
+        "reviewer": "LiamMartin",
+        "rating": 4.7,
+        "comment": "Impressive build quality. Definitely recommended."
+      }
+    ]
+  },
+  {
+    "Image": "https://i.ibb.co/ngZJ6rL/storgae.jpg",
+    "Product Name": "Samsung 970 EVO Plus 1TB NVMe SSD",
+    "Category": "Storage Device",
+    "Status": "In Stock",
+    "Price": 199.99,
+    "Description": "High-speed NVMe SSD for rapid data access.",
+    "Key Features": {
+      "Brand": "Samsung",
+      "Model": "970 EVO Plus",
+      "Capacity": "1TB",
+      "Form Factor": "M.2 2280",
+      "Interface": "NVMe PCIe 3.0 x4",
+      "Read Speed": "3500 MB/s",
+      "Write Speed": "3300 MB/s"
+    },
+
+    "Reviews": [
+      {
+        "reviewer": "MiaSmith",
+        "rating": 4.1,
+        "comment": "Good value for the price. Improved my workflow."
+      },
+      {
+        "reviewer": "LucasBrown",
+        "rating": 3.5,
+        "comment": "Decent product, but had compatibility issues."
+      },
+      {
+        "reviewer": "AveryDavis",
+        "rating": 4.4,
+        "comment": "Solid build, reliable performance. Slightly overpriced."
+      }
+    ]
+  },
+  {
+    "Image": "https://i.ibb.co/rdYtZF5/storage.jpg",
+    "Product Name": "Crucial MX500 2TB SATA SSD",
+    "Category": "Storage Device",
+    "Status": "In Stock",
+    "Price": 259.99,
+    "Description": "High-capacity SATA SSD for storage and applications.",
+    "Key Features": {
+      "Brand": "Crucial",
+      "Model": "MX500",
+      "Capacity": "2TB",
+      "Form Factor": "2.5-inch",
+      "Interface": "SATA III",
+      "Read Speed": "560 MB/s",
+      "Write Speed": "510 MB/s"
+    },
+
+    "Reviews": [
+      {
+        "reviewer": "LiamThompson",
+        "rating": 3.7,
+        "comment": "Mixed feelings. Some features are great, others not so much."
+      },
+      {
+        "reviewer": "AidenJohnson",
+        "rating": 4.5,
+        "comment": "Impressed with the performance boost in demanding tasks."
+      }
+    ]
+  },
+  {
+    "Image": "https://i.ibb.co/W38dNjV/storage2.jpg",
+    "Product Name": "Western Digital Blue 500GB HDD",
+    "Category": "Storage Device",
+    "Status": "Out of stock",
+    "Price": 49.99,
+    "Description": "Basic 500GB hard drive for budget storage.",
+    "Key Features": {
+      "Brand": "Western Digital",
+      "Model": "Blue",
+      "Capacity": "500GB",
+      "Form Factor": "3.5-inch",
+      "Interface": "SATA III",
+      "RPM": "7200",
+      "Cache": "32MB"
+    },
+
+    "Reviews": [
+      {
+        "reviewer": "LoganWilson",
+        "rating": 5,
+        "comment": "A game-changer for my setup. Very happy!"
+      },
+      {
+        "reviewer": "EmmaMartinez",
+        "rating": 4.9,
+        "comment": "Top-notch quality. Worth every penny."
+      }
+    ]
+  },
+  {
+    "Image": "https://i.ibb.co/w4yc0n3/monitor2.jpg",
+    "Product Name": "LG 27GL83A-B 27-inch 1440p Gaming Monitor",
+    "Category": "Monitor",
+    "Status": "In Stock",
+    "Price": 449.99,
+    "Description": "High-refresh rate gaming monitor with QHD resolution.",
+    "Key Features": {
+      "Brand": "LG",
+      "Model": "27GL83A-B",
+      "Screen Size": "27 inches",
+      "Resolution": "2560 x 1440 (QHD)",
+      "Refresh Rate": "144Hz",
+      "Response Time": "1ms",
+      "Panel Type": "IPS",
+      "Connectors": "1 x DisplayPort, 2 x HDMI, 1 x USB 3.0"
+    },
+
+    "Reviews": [
+      {
+        "reviewer": "MichaelDavis",
+        "rating": 4.3,
+        "comment": "Easy installation and solid performance overall."
+      },
+      {
+        "reviewer": "SofiaMiller",
+        "rating": 3.2,
+        "comment": "Average quality. Expected a bit more for the price."
+      }
+    ]
+  },
+  {
+    "Image": "https://i.ibb.co/8BwdqwX/monitor.jpg",
+    "Product Name": "Dell Ultrasharp U2719D 27-inch Monitor",
+    "Category": "Monitor",
+    "Status": "In Stock",
+    "Price": 359.99,
+    "Description": "Color-accurate monitor for professional tasks.",
+    "Key Features": {
+      "Brand": "Dell",
+      "Model": "Ultrasharp U2719D",
+      "Screen Size": "27 inches",
+      "Resolution": "2560 x 1440 (QHD)",
+      "Refresh Rate": "60Hz",
+      "Response Time": "5ms",
+      "Panel Type": "IPS",
+      "Connectors": "1 x DisplayPort, 1 x HDMI, 1 x USB-C, 4 x USB 3.0"
+    },
+
+    "Reviews": [
+      {
+        "reviewer": "DanielJohnson",
+        "rating": 4.6,
+        "comment": "Noticeable improvement in performance. Satisfied."
+      },
+      {
+        "reviewer": "IsabellaBrown",
+        "rating": 2.5,
+        "comment": "Not as advertised. Disappointed with the results."
+      }
+    ]
+  },
+  {
+    "Image": "https://i.ibb.co/WnP1JmB/monitor3.jpg",
+    "Product Name": "Acer R240HY 23.8-inch 1080p Monitor",
+    "Category": "Monitor",
+    "Status": "Out of stock",
+    "Price": 129.99,
+    "Description": "Affordable Full HD monitor for everyday use.",
+    "Key Features": {
+      "Brand": "Acer",
+      "Model": "R240HY",
+      "Screen Size": "23.8 inches",
+      "Resolution": "1920 x 1080 (Full HD)",
+      "Refresh Rate": "60Hz",
+      "Response Time": "4ms",
+      "Panel Type": "IPS",
+      "Connectors": "1 x HDMI, 1 x VGA"
+    },
+
+    "Reviews": [
+      {
+        "reviewer": "OliviaSmith",
+        "rating": 3.8,
+        "comment": "Had some initial issues, but customer support was helpful."
+      },
+      {
+        "reviewer": "DanielJohnson",
+        "rating": 4.6,
+        "comment": "Noticeable improvement in performance. Satisfied."
+      },
+      {
+        "reviewer": "IsabellaBrown",
+        "rating": 2.5,
+        "comment": "Not as advertised. Disappointed with the results."
+      }
+    ]
+  },
+  {
+    "Image": "https://i.ibb.co/DbbQq57/mouse2.jpg",
+    "Product Name": "NVIDIA GeForce RTX 3080",
+    "Category": "Others",
+    "Status": "In Stock",
+    "Price": 699.99,
+    "Description": "High-end GPU for gaming and content creation.",
+    "Key Features": {
+      "Brand": "NVIDIA",
+      "Model": "GeForce RTX 3080",
+      "VRAM": "10GB GDDR6X",
+      "CUDA Cores": "8704",
+      "Clock Speed": "1440 MHz base, 1710 MHz boost",
+      "Memory Bus": "320-bit",
+      "Connectors": "3 x DisplayPort, 1 x HDMI"
+    },
+
+    "Reviews": [
+      {
+        "reviewer": "MichaelDavis",
+        "rating": 4.3,
+        "comment": "Easy installation and solid performance overall."
+      },
+      {
+        "reviewer": "SofiaMiller",
+        "rating": 3.2,
+        "comment": "Average quality. Expected a bit more for the price."
+      }
+    ]
+  },
+  {
+    "Image": "https://i.ibb.co/DRGnM2v/mouse1.jpg",
+    "Product Name": "Logitech G Pro X Superlight",
+    "Category": "Others",
+    "Status": "In Stock",
+    "Price": 149.99,
+    "Description": "Ultra-lightweight gaming mouse with customizable features.",
+    "Key Features": {
+      "Brand": "Logitech",
+      "Model": "G Pro X Superlight",
+      "DPI": "25,600",
+      "Buttons": "5",
+      "Sensor": "HERO",
+      "Connection": "Wireless (LIGHTSPEED)",
+      "Weight": "63g"
+    },
+
+    "Reviews": [
+      {
+        "reviewer": "LoganWilson",
+        "rating": 5,
+        "comment": "A game-changer for my setup. Very happy!"
+      },
+      {
+        "reviewer": "EmmaMartinez",
+        "rating": 4.9,
+        "comment": "Top-notch quality. Worth every penny."
+      }
+    ]
+  },
+  {
+    "Image": "https://i.ibb.co/x2VzWsy/other.jpg",
+    "Product Name": "Corsair K70 RGB MK.2 Mechanical Gaming Keyboard",
+    "Category": "Others",
+    "Status": "Out of stock",
+    "Price": 159.99,
+    "Description": "RGB-backlit mechanical keyboard for gaming and typing.",
+    "Key Features": {
+      "Brand": "Corsair",
+      "Model": "K70 RGB MK.2",
+      "Switches": "Cherry MX Red",
+      "Backlighting": "RGB",
+      "Connection": "Wired",
+      "Additional Keys": "Media controls, volume wheel, USB pass-through"
+    },
+    "Individual Rating": 4.7,
+    "Average Rating": 4.6,
+    "Reviews": [
+      {
+        "reviewer": "LiamThompson",
+        "rating": 3.7,
+        "comment": "Mixed feelings. Some features are great, others not so much."
+      },
+      {
+        "reviewer": "AidenJohnson",
+        "rating": 4.5,
+        "comment": "Impressed with the performance boost in demanding tasks."
+      },
+      {
+        "reviewer": "MiaSmith",
+        "rating": 4.1,
+        "comment": "Good value for the price. Improved my workflow."
+      }
+    ]
+  }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
