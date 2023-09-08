@@ -55,17 +55,24 @@ const FeaturedCard = ({ product, children }) => {
           )}
         </div>
       </Link>
-      {children ? (
+      {product?.Status == 'In Stock' ? (
         <div className="flex justify-center">
           {' '}
           <button
-            className="bg-primary py-2 px-5 w-full my-4 text-white rounded-sm"
+            className="bg-primary py-2 border border-primary cursor-pointer px-5 w-full my-4 text-white rounded-sm"
             onClick={() => handleSelect(product)}
           >
-            {children}
+            Add To Builder
           </button>
         </div>
-      ) : null}
+      ) : (
+        <button
+          className="bg-white py-2 px-5 w-full my-4 text-baseColor border border-baseColor cursor-not-allowed rounded-sm"
+          onClick={() => handleSelect(product)}
+        >
+          Out of Stock
+        </button>
+      )}
 
       {/* <div className="flex justify-start items-center">
         <Review key={product?._id} product={product} />

@@ -18,11 +18,10 @@ const PcBuild = ({ ssrCategory }) => {
   };
 
   const closeModal = () => {
-    dispatch(resetSelected())
+    dispatch(resetSelected());
     setIsModalOpen(false);
     router.push('/');
   };
-
 
   dispatch(getSSRCategories(ssrCategory));
   const complete = useSelector((state) => state?.categories?.complete);
@@ -41,8 +40,18 @@ const PcBuild = ({ ssrCategory }) => {
             category={category}
           ></ChooseCategorycard>
         ))}
-       
-
+        {!complete ? (
+          <button className="bg-white border border-baseColor  py-2 px-5 text-baseColor  cursor-not-allowed rounded-sm">
+            Complete Build
+          </button>
+        ) : (
+          <button
+            onClick={openModal}
+            className="bg-primary py-2 px-5 text-white rounded-sm border border-primary cursor-pointer"
+          >
+            Complete Build
+          </button>
+        )}
         <Modal isOpen={isModalOpen} onClose={closeModal}>
           {/* Modal Content */}
           <div className="py-10 px-10">

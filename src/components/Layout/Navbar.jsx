@@ -18,6 +18,7 @@ export default function Navbar() {
   const rouuter = useRouter();
   const [isDown, setDown] = useState(false);
   const categories = useSelector((state) => state?.categories?.categories);
+
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
   const handleMobileMenuToggle = () => {
     setMobileMenuOpen(!isMobileMenuOpen);
@@ -25,6 +26,7 @@ export default function Navbar() {
   const dropdownRef = useRef(null); // Ref for the dropdown menu
   const handleDropDown = () => {
     setDown(!isDown);
+    console.log('Dropdown isDown:', isDown);
   };
   const handleRoute = (category) => {
     rouuter.replace(`/category/${category?.category}`);
@@ -101,85 +103,106 @@ export default function Navbar() {
                 Category
               </button>
               {isDown && (
-                <ul class="absolute w-[150px] top-[49px] left-0 bg-secondary p-2 z-10">
-                  {categories?.map((category) => {
-                    return (
-                      <li
-                        key={category}
-                        className="p-2 cursor-pointer bg-secondary hover:bg-subsidery"
-                        onClick={() => handleRoute(category)}
-                      >
-                        <a class="text-white">{category?.category}</a>
-                      </li>
-                    );
-                  })}
-                </ul>
+                <div>
+                  <ul class="absolute w-[150px] top-[49px] left-0 bg-secondary p-2 z-10">
+                    {categories?.map((category) => {
+                      return (
+                        <li
+                          key={category}
+                          className="p-2 cursor-pointer bg-secondary hover:bg-subsidery"
+                          onClick={() => handleRoute(category)}
+                        >
+                          <a class="text-white">{category?.category}</a>
+                        </li>
+                      );
+                    })}
+                  </ul>
+                </div>
               )}
             </div>
             <Link href="/build" class="text-white">
               <Button>Build PC</Button>
             </Link>
-            <div>
+            <div className="flex justify-center items-center">
               {session?.user ? (
                 <p className="text-white">
-                  <button onClick={() => signOut()} type="primary" danger>
+                  <button
+                    onClick={() => signOut()}
+                    type="primary"
+                    danger
+                    className="bg-transparent border border-primary py-1 px-5 text-white rounded-sm "
+                  >
                     Logout
                   </button>
                 </p>
               ) : (
-                <Link className="text-white" href="/login">
+                <Link
+                  className="bg-transparent border border-primary py-1 px-6 text-white rounded-sm "
+                  href="/login"
+                >
                   Login
                 </Link>
               )}
             </div>
           </div>
 
-          <div class="md:hidden">
+          <div class="md:hidden relative ">
             <button class="text-white" onClick={handleMobileMenuToggle}>
               <FaBars />
             </button>
             {isMobileMenuOpen && (
-              <div className="absolute top-[56px] right-0 bg-secondary w-full p-2">
-                <a href="#" className="text-white block">
-                  Home
-                </a>
+              <div className="absolute top-[44px] right-0 bg-secondary  w-56  p-2 z-10 ">
+                <div>
+                  <a href="#" className="text-white block  my-2">
+                    Home
+                  </a>
 
-                <div className="relative">
-                  <button className="text-white" onClick={handleDropDown}>
-                    Category
-                  </button>
-                  {isDown && (
-                    <ul
-                      className="absolute w-[100%] top-[45px] right-0 bg-secondary p-2 z-10"
-                      ref={dropdownRef}
-                    >
-                      {categories?.map((category) => {
-                        return (
-                          <li
-                            key={category}
-                            onClick={() => handleRoute(category)}
-                          >
-                            <a className="text-white">{category?.category}</a>
-                          </li>
-                        );
-                      })}
-                    </ul>
-                  )}
-                </div>
-                <Link href="/build" className="text-white">
-                  <Button>Build PC</Button>
-                </Link>
-                {session?.user ? (
-                  <p className="text-white">
-                    <button onClick={() => signOut()} type="primary" danger>
-                      Logout
+                  <div class="relative my-2" ref={dropdownRef}>
+                    <button class="text-white" onClick={handleDropDown}>
+                      Category
                     </button>
-                  </p>
-                ) : (
-                  <Link className="text-white" href="/login">
-                    Login
-                  </Link>
-                )}
+                    {isDown && (
+                      <ul class=" w-[150px] top-[49px] right-0 bg-secondary p-2 ">
+                        {categories?.map((category) => {
+                          return (
+                            <li
+                              key={category}
+                              className="p-2 cursor-pointer bg-secondary hover:bg-subsidery"
+                              onClick={() => handleRoute(category)}
+                            >
+                              <a class="text-white">{category?.category}</a>
+                            </li>
+                          );
+                        })}
+                      </ul>
+                    )}
+                  </div>
+
+                  <div className="flex justify-start items-center my-2">
+                    <Link href="/build" className="text-white">
+                      <Button>Build PC</Button>
+                    </Link>
+                    {session?.user ? (
+                      <p className="text-white ">
+                        <button
+                          onClick={() => signOut()}
+                          type="primary"
+                          danger
+                          className="bg-transparent border border-primary py-1 px-5 text-white rounded-sm mx-1"
+                        >
+                          Logout
+                        </button>
+                      </p>
+                    ) : (
+                      <Link
+                        className="bg-transparent border border-primary py-1 px-6 text-white rounded-sm mx-1 "
+                        href="/login"
+                      >
+                        <button> Login</button>
+                      </Link>
+                    )}
+                  </div>
+                </div>
               </div>
             )}
           </div>

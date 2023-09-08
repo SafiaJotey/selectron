@@ -1,38 +1,68 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Selectron
+## Overview
+Selectron is a web application that allows users to design and build their own custom PCs. This project is built using Next.js for the front-end, Redux for state management, Tailwind CSS for styling, and Node.js with Express.js and MongoDB for the backend.
 
-First, run the development server:
+## Features
+
+- User Authentication: Users can create accounts, log in, and manage their profiles
+- PC Customization: Build and customize PCs with various components like CPUs, GPUs, RAM, and more.
+- Category: Browse a categoryof PC components and filter them by category.
+- Responsive Design: The app is responsive and works on various devices.
+
+## Technologies Used
+- #### Front-end:
+    - Next.js: A React framework for building fast and scalable applications.
+    - Redux: A state management library for handling application state.
+    - Tailwind CSS: A utility-first CSS framework for rapid UI development.
+
+- #### Back-end:
+    - Node.js: A JavaScript runtime for server-side development.
+    - Express.js: A minimal and flexible Node.js web application framework.
+    - MongoDB: A NoSQL database for storing component and user data.
+
+- #### Deployment:
+    - vercel: Containerization for easy deployment.
+   
+
+## Important Links
+
+ - [Livesite](https://selectron.vercel.app/)
+ - [Github-frontend](https://github.com/SafiaJotey/selectron)
+ - [Github-backend](https://github.com/SafiaJotey/selectron-server)
+
+ 
+## 🚀 Getting Started
+
+## Prerequisites
+ 
+- Node.js and npm (Node Package Manager)
+- MongoDB
+- vercel (for production deployment)
+
+## Installation
+ 1. Clone the repository: 
+
+    ```
+    git clone https://github.com/SafiaJotey/selectron.git
+
+    ```
+2. Change into the project directory: 
+```
+cd selectron
+```
+3. Install dependencies for both the front-end and 
+back-end
 
 ```bash
+npm install
+#or
+npm i
+```
+To run
+```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+4. Environment variables should be set in both the front-end and back-end. You can use a .env file or your hosting provider's environment configuration.
+5. Access the app at http://localhost:3000 in your web browser.

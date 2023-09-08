@@ -27,7 +27,7 @@ const Category = () => {
         {filterCategories[0]?.products?.map((product) => (
           <div className="md:w-1/3 p-2">
             <FeaturedCard key={product?._id} product={product}>
-              Add To Builder
+          
             </FeaturedCard>
           </div>
         ))}

@@ -1,8 +1,7 @@
-import RootLayout from '@/components/Layout/RootLayout';
 import { signIn } from 'next-auth/react';
 
 import Head from 'next/head';
-import { AiOutlineGithub, AiOutlineGooglePlus } from 'react-icons/ai';
+import { AiOutlineGithub } from 'react-icons/ai';
 const LoginPage = () => {
   return (
     <div>
@@ -42,6 +41,6 @@ const LoginPage = () => {
 
 export default LoginPage;
 
-LoginPage.getLayout = function getLayout(page) {
-  return <RootLayout>{page}</RootLayout>;
-};
+// LoginPage.getLayout = function getLayout(page) {
+//   return <RootLayout>{page}</RootLayout>;
+// };

@@ -1,23 +1,27 @@
+/* eslint-disable react/jsx-key */
+/* eslint-disable react/jsx-no-undef */
 import RootLayout from '@/components/Layout/RootLayout';
 import Review from '@/components/ui/Review';
+
+import ReviewCard from '@/components/ui/ReviewCard';
 import Image from 'next/image';
 
 const ProductDetails = ({ product }) => {
   return (
-    <div className="container flex justify-center items-center ">
-      <div className="flex flex-col md:flex-row  justify-between items-start my-5 w-[80%] shadow-md">
-        <div className="md:w-[40%]">
+    <div className="container px-[50px] flex-col justify-center items-center ">
+      <div className="flex flex-col md:flex-row  justify-between items-start  shadow-md">
+        <div className="md:w-[50%]">
           {' '}
           <Image
             src={product?.Image}
-            width={400}
-            height={400}
+            width={600}
+            height={500}
             className="border border-baseColor rounded-md"
             alt=""
           ></Image>
         </div>
-        <div className="md:w-[60%] p-5">
-          <h4 className="text-5xl font-semibold">{product['Product Name']}</h4>
+        <div className="md:w-[50%] p-5">
+          <h4 className="text-3xl font-semibold">{product['Product Name']}</h4>
           <div className="flex justify-between items-center">
             <p className=" text-primary font-extrabold text-xl my-3">
               {product?.Category}
@@ -38,18 +42,31 @@ const ProductDetails = ({ product }) => {
           <hr className="text-baseColor my-2" />
           <p className="">{product?.Description}</p>
           <div className="my-5">
-            <h6 className="text-xl font-semibold">Key Features</h6>
+            <h6 className="text-lg font-semibold">Key Features</h6>
             <ul>
               {Object.keys(product['Key Features'])?.map((item) => {
                 return (
                   <li key={item}>
-                    <span className="text-md font-semibold">{item}:</span>{' '}
+                    <span className="text-sm font-semibold">{item}:</span>{' '}
                     {product['Key Features'][item]}
                   </li>
                 );
               })}
             </ul>
           </div>
+          <button>Add Review</button>
+        </div>
+      </div>
+      <div>
+        <h6 className="text-main font-bold mt-10 mb-3 text-2xl">Reviews</h6>
+        <div className=" my-4">
+          {product?.Reviews?.map((review) => {
+            return (
+              <div className="bg-white rounded-lg shadow-md p-4 my-1">
+                <ReviewCard key={review?._id} reviewData={review}></ReviewCard>
+              </div>
+            );
+          })}
         </div>
       </div>
     </div>
