@@ -94,9 +94,12 @@ export default function Navbar() {
           </div>
 
           <div class="hidden md:flex md:a-center space-x-4">
-            <a href="#" class="text-white">
+            <Link href="/" class="text-white">
               Home
-            </a>
+            </Link>
+            <Link href="/allProducts" class="text-white">
+              All Products
+            </Link>
 
             <div class="relative" ref={dropdownRef}>
               <button class="text-white" onClick={handleDropDown}>
@@ -153,10 +156,12 @@ export default function Navbar() {
             {isMobileMenuOpen && (
               <div className="absolute top-[44px] right-0 bg-secondary  w-56  p-2 z-10 ">
                 <div>
-                  <a href="#" className="text-white block  my-2">
+                  <Link href="/" className="text-white block  my-2">
                     Home
-                  </a>
-
+                  </Link>
+                  <Link href="/allProducts" class="text-white">
+                    All Products
+                  </Link>
                   <div class="relative my-2" ref={dropdownRef}>
                     <button class="text-white" onClick={handleDropDown}>
                       Category

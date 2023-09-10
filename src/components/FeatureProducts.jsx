@@ -8,11 +8,11 @@ const FeatureProducts = () => {
   const products = useSelector((state) => state?.products?.products);
 
   return (
-    <div className="container py-5 md:p-[100px] flex flex-col justify-center">
+    <div className="container py-5 md:p-[50px] flex flex-col justify-center">
       <Header
         mainTitle="Featured"
         title="Products"
-        subTitle="Each category should have a corresponding route. (SSG implementation)"
+        subTitle="Explore Our Exclusive Collection of Featured Products - Uncover the Latest Trends and Must-Have Items!"
       ></Header>
       <div
         className="flex flex-col md:flex-row justify-center
@@ -20,7 +20,7 @@ const FeatureProducts = () => {
       >
         {products?.map((product) => {
           return (
-            <div className="md:w-1/3 p-2" key={product?._id}>
+            <div className="md:w-1/3 p-5" key={product?._id}>
               <FeaturedCard product={product}></FeaturedCard>
             </div>
           );

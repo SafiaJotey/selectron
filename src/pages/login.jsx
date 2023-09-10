@@ -1,7 +1,7 @@
 import { signIn } from 'next-auth/react';
 
 import Head from 'next/head';
-import { AiOutlineGithub } from 'react-icons/ai';
+import { AiOutlineGithub, AiOutlineGooglePlus } from 'react-icons/ai';
 const LoginPage = () => {
   return (
     <div>
@@ -14,12 +14,19 @@ const LoginPage = () => {
           <h3 className="text-2xl font-bold text-center">LOGIN</h3>
           <hr />
           <div className="flex justify-center items-center my-2">
-            {/* <AiOutlineGooglePlus className="text-6xl m-3 cursor-pointer" /> */}
+            <AiOutlineGooglePlus
+              className="text-6xl m-3 cursor-pointer"
+              onClick={() =>
+                signIn('google', {
+                  callbackUrl: 'https://selectron.vercel.app',
+                })
+              }
+            />
             <AiOutlineGithub
               className="text-6xl  m-3 cursor-pointer"
               onClick={() =>
                 signIn('github', {
-                  callbackUrl: 'http://localhost:3000/',
+                  callbackUrl: 'https://selectron.vercel.app',
                 })
               }
             />

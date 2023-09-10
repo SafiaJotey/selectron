@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 const FeaturedCategoriesCard = ({ category }) => {
   return (
-    <div className=" shadow-sm shadow-base p-5 ">
+    <div className=" shadow-md shadow-base p-3 ">
       <Link href={`category/${category?.category}`}>
         {' '}
         <div className="h-200 my-2 relative">

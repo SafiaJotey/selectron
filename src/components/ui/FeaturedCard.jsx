@@ -4,6 +4,7 @@ import { useRouter } from 'next/router';
 
 import { selectedProducts } from '@/redux/features/products/productSlice';
 import { useDispatch } from 'react-redux';
+import Review from './Review';
 const FeaturedCard = ({ product, children }) => {
   const router = useRouter();
   const dispatch = useDispatch();
@@ -13,7 +14,7 @@ const FeaturedCard = ({ product, children }) => {
   };
 
   return (
-    <div className=" shadow-sm shadow-base p-5">
+    <div className=" shadow-md shadow-base p-5">
       <Link
         href={`${
           router?.pathname === '/category/[category]'
@@ -21,25 +22,23 @@ const FeaturedCard = ({ product, children }) => {
             : `category/product/${product?._id}`
         }`}
       >
-        <Image
-          src={product?.Image}
-          width={400}
-          height={300}
-          className="h-[300px]"
-          alt=""
-        ></Image>
+        <div className="flex justify-center items-center">
+          {' '}
+          <Image src={product?.Image} width={200} height={200} alt=""></Image>
+        </div>
         <div className="h-12 my-2">
           {' '}
-          <p className="text-xl font-semibold ">
+          <p className="text-lg font-semibold ">
             Product Name: {product['Product Name']}
           </p>
         </div>
-        <div className="  h-6">
+        <div className=" flex justify-between items-center h-6">
           <p>Category: {product?.Category}</p>
+          <Review key={product?._id} product={product}></Review>
         </div>
 
         <div className="flex justify-between items-center my-2 h-6">
-          <p className="text-primary text-3xl font-semibold">
+          <p className="text-primary text-xl font-semibold">
             Price: ${product?.Price}
           </p>
           {product?.Status == 'In Stock' ? (

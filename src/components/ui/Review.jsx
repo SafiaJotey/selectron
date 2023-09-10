@@ -2,7 +2,12 @@ import ratingCount from '@/shared/rating';
 import { BsStar, BsStarFill, BsStarHalf } from 'react-icons/bs';
 
 export default function Review({ product }) {
-  const finalrating = ratingCount(product);
+  let finalrating;
+  if (typeof product === 'number') {
+    finalrating = product;
+  } else {
+    finalrating = ratingCount(product);
+  }
 
   const maxRating = 5;
   const stars = [];

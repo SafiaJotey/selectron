@@ -14,11 +14,11 @@ const Category = () => {
   );
 
   return (
-    <div className="container py-5 md:p-[100px] flex flex-col justify-center">
+    <div className="container  md:p-[100px] flex flex-col justify-center">
       <Header
-        mainTitle="Desktops"
-        title="Products"
-        subTitle="Each category should have a corresponding route. (SSG implementation)"
+        mainTitle="Category:"
+        title={router?.query?.category}
+        subTitle="Explore Our Exclusive Collection of Featured Products - Uncover the Latest Trends and Must-Have Items!"
       ></Header>
       <div
         className="flex flex-col md:flex-row justify-center
@@ -26,7 +26,9 @@ const Category = () => {
       >
         {filterCategories[0]?.products?.map((product) => (
           <div className="md:w-1/3 p-2">
-            <FeaturedCard key={product?._id} product={product}>Choose Product</FeaturedCard>
+            <FeaturedCard key={product?._id} product={product}>
+              Choose Product
+            </FeaturedCard>
           </div>
         ))}
       </div>
